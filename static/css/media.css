@@ -1,0 +1,180 @@
+@media screen and (max-width: 600px) {
+  .nav {
+    box-shadow: 0px 5px 5px;
+  }
+  .rows3 h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+  .search_bar {
+    display: none;
+  }
+  .row2 {
+    flex-direction: column-reverse;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .hero h1 {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .card1 {
+    height: 90px;
+    width: 90px;
+  }
+  .card2 {
+    height: 90px;
+    width: 90px;
+  }
+  .card3 {
+    height: 90px;
+    width: 90px;
+  }
+  .card4 {
+    height: 90px;
+    width: 90px;
+  }
+  .card5 {
+    height: 90px;
+    width: 90px;
+  }
+  .cards i {
+    padding: 2rem;
+    font-size: 2.5rem;
+    opacity: 80%;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .hero p {
+    padding: 0 15px;
+    /* width: 90%; */
+  }
+  /* THIS IS FOR SECTION 2 */
+  .hero2 h1 {
+    font-size: 2rem;
+    /* width: 50%; */
+  }
+  .hero2 .headp {
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+  .headp p {
+    width: 100%;
+    /* flex-wrap: wrap; */
+  }
+  .cards-S2-cont1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+  .cards-S2-cont2 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+    /* padding-left: 10px; */
+  }
+  .card1-S2 {
+    width: 50;
+    height: 40;
+  }
+  .card2-S2 {
+    width: 50;
+    height: 40;
+  }
+  .card3-S2 {
+    width: 50;
+    height: 40;
+  }
+  .card4-S2 {
+    width: 50;
+    height: 30;
+  }
+  .card5-S2 {
+    width: 50;
+    height: 30;
+  }
+  .card6-S2 {
+    width: 50;
+    height: 30;
+  }
+  .cards-S2 a h2 {
+    padding-left: 50px;
+  }
+  .cards-S2 a p {
+    padding-left: 50px;
+  }
+  .cards.S2 {
+    margin: 0 -20px;
+  }
+  .row4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-back {
+    width: 330px;
+    height: 450px;
+  }
+  .img-back h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 50%;
+    margin: -20px;
+  }
+  .contents-3s p {
+    width: 70%;
+    font-size: 17px;
+  }
+  .grids {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+  }
+  .row5 h1 {
+    text-align: start;
+    margin-left: -25px;
+  }
+  .hero5 {
+    display: none;
+  }
+  .hero6 {
+    display: none;
+  }
+  .form {
+    background: inherit;
+  }
+  .fa-bars {
+    display: block;
+    color: white;
+    font-size: 30px;
+    margin: 14px 0px 18px 20px;
+  }
+
+  .song {
+    display: none;
+  }
+
+  .frame1 {
+    width: 3vh;
+    height: 3vh;
+    border: 0px solid rgb(0, 0, 0);
+    box-shadow: 5px 10px 10px #001c33;
+  }
+  .rows2 h1 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,173 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  background-color: rgb(24, 23, 23);
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  overflow-x: hidden;
+}
+.song {
+  background-image: url(../img/Tracks/filip-VHf4jqrUu7g-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0 !important;
+  padding: 70px 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  background-attachment: fixed;
+}
+.rows1 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: white;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 5rem;
+}
+.rows1 h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.rows1 p {
+  flex-wrap: wrap;
+  width: 30%;
+}
+.tr-text {
+  padding: 20px;
+  border: 0px solid white;
+  width: 110%;
+}
+.tr-text p,
+.tr-text2 p,
+.tr-text3 p {
+  width: 100%;
+  font-size: 1.5rem;
+}
+.tr-text p {
+  padding-left: -20%;
+}
+.tr-text2 {
+  padding: 20px;
+  border: 0px solid white;
+  left: 10%;
+}
+.tr-text3 {
+  padding: 20px;
+  border: 0px solid white;
+}
+.rows1 button {
+  border: 1px solid;
+  background-color: #1e2337;
+  color: white;
+  padding: 15px;
+  width: 120px;
+  font-size: 1rem;
+  border: none;
+}
+.rows1 button:hover {
+  background-color: #1e2323;
+  cursor: pointer;
+}
+
+/* CSS FOR SONG2 */
+.song2 {
+  margin-top: 0 !important;
+  padding: 50px 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: #001c33;
+}
+.rows2 h1 {
+  color: rgb(255, 246, 246);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 550;
+}
+.iframes-music,
+.iframes-music2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: -7%;
+}
+.iframes-music2 {
+  padding-top: 20px;
+}
+.frame1 {
+  width: 35vh;
+  height: 30vh;
+  border: 0px solid rgb(0, 0, 0);
+  box-shadow: 5px 10px 10px #001c33;
+}
+.frame1:hover {
+  width: 36vh;
+  height: 31vh;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* CSS FOR ROWS3 */
+.song3 {
+  padding: 50px 0;
+  background-attachment: fixed;
+  background-color: #e4e4e4;
+}
+.rows3 h1 {
+  color: rgb(8, 8, 8);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 550;
+}
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+input[type="submit"] {
+  color: white;
+  background-color: #001c33;
+  width: 125px;
+  padding: 15px;
+}
+input[type="submit"]:hover {
+  color: white;
+  background: #1e2323;
+  width: 130px;
+  cursor: pointer;
+}
+input[type="file"] {
+  color: rgb(3, 3, 3);
+  background: transparent;
+  width: 550px;
+  padding: 30px;
+  font-size: 1.4rem;
+  border: 2px dotted #1e2323;
+}
+input[type="file"]:hover {
+  cursor: pointer;
+}
+.succH1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.Tracks_heros1 {
+  padding: 70px 0;
+  background-attachment: fixed;
+  background-color: #e4e4e4;
+}

@@ -1,0 +1,224 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* header {
+  position: fixed;
+} */
+.fa-bars {
+  display: none;
+}
+.nav {
+  background-color: rgb(24, 23, 23);
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  overflow-x: hidden;
+  /* padding: 20px 0; */
+}
+.nav2 {
+  display: none;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.column1 img {
+  width: 4rem;
+  padding-top: 5px;
+}
+.column1 img:hover {
+  cursor: pointer;
+  width: 3.8rem;
+}
+.container {
+  /* padding: 0 10%; */
+  max-width: 80%;
+  margin: auto;
+}
+.column2 a {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.column2 a:hover {
+  color: blue;
+  /* font-weight: 550; */
+  /* background-color: yellow; */
+  /* padding: 3px 5px; */
+  /* border-radius: 5px; */
+}
+.column2 nav {
+  display: flex;
+}
+/* .column2 button i {
+  size: 10rem;
+} */
+/* .column2 input {
+  border-radius: 1rem;
+  border: 0px solid;
+} */
+.form {
+  background-color: aliceblue;
+  border-radius: 50px;
+  height: 40px;
+  /* padding: 10px; */
+  margin-top: 6px;
+  display: flex;
+}
+.form input {
+  background: transparent;
+  border: none;
+  width: 120px;
+  outline: none;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+/* .form button  i {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: red;
+  border-radius: 50%;
+  float: right;
+  padding: 3px 4px;
+  height: 25px;
+  width: 25px;
+} */
+.form .s-btn {
+  background: red;
+  height: 35px;
+  width: 35px;
+  margin: 2px 4px 0 0;
+  /* float: right; */
+  display: flex;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+}
+.hero {
+  background-color: rgb(24, 23, 23);
+  margin-top: 0 !important;
+  padding: 70px 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.row2 {
+  display: flex;
+  flex-direction: column;
+}
+.hero h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.hero p {
+  color: white;
+  text-align: center;
+  padding: 0 100px;
+  flex-wrap: wrap;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  background: rgba(104, 104, 253, 0.918);
+  padding: 15px 20px;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+.p-btn {
+  margin-right: 10px;
+}
+.btn button:hover {
+  color: rgba(104, 104, 253, 0.918);
+  background: white;
+}
+/* .btn button a {
+  color: white;
+  text-decoration: none;
+}
+.btn button a:hover {
+ 
+} */
+.column2 a span i {
+  font-size: 25px;
+  color: white;
+  margin-top: 15px;
+}
+
+/*CARDS*/
+.cards {
+  display: flex;
+  color: white;
+  cursor: pointer;
+  gap: 20px;
+  width: 100%;
+  overflow: hidden;
+  /* margin: 0 150px; */
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+/* .cards i {
+
+} */
+.card1 {
+  background-image: url(../img/denisse-leon-n4BDkIEls78-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card2 {
+  background-image: url(../img/giorgio-trovato-PdtApuzR_IQ-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card3 {
+  background-image: url(../img/matt-botsford-OKLqGsCT8qs-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card4 {
+  background-image: url(../img/namroud-gorguis-FZWivbri0Xk-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card5 {
+  background-image: url(../img/peter-hammer-SXTj90G1f5c-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cards i {
+  padding: 5rem;
+  font-size: 5rem;
+  /* opacity: 90%; */
+}

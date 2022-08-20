@@ -1,0 +1,115 @@
+/* .row3 {
+  display: flex;
+  flex-direction: column;
+} */
+.hero2 {
+  background: rgb(24, 23, 23);
+  /* margin: 0; */
+  padding: 30px 0;
+  /* justify-content: center;
+  align-content: center;
+  align-items: center; */
+}
+.hero2 h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.hero2 .headp {
+  color: white;
+  text-align: center;
+  padding: 0 80px;
+  flex-wrap: wrap;
+}
+.headp p {
+  font-size: 16px;
+}
+.cards-S2 a h2 {
+  padding-top: 7.5rem;
+  font-size: 2rem;
+  padding-left: 20px;
+}
+.cards-S2 a p {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.cards-S2 a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.cards-S2-cont1 {
+  display: flex;
+  cursor: pointer;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10px;
+}
+.cards-S2-cont2 {
+  display: flex;
+  cursor: pointer;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 20px 0;
+}
+.card1-S2 {
+  background-image: url(../img/section2/david-salamanca-Sdj3DWR_Mj8-unsplash.jpg);
+  height: 298px;
+  width: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card2-S2 {
+  background-image: url(../img/section2/axville-PV5jo94EGKo-unsplash.jpg);
+  height: 298px;
+  width: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card3-S2 {
+  background-image: url(../img/section2/jason-strull-5on8vllhZUM-unsplash.jpg);
+  height: 298px;
+  width: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card4-S2 {
+  background-image: url(../img/section2/nitin-mendekar-O4rpVAyAC3w-unsplash.jpg);
+  height: 298px;
+  width: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card5-S2 {
+  background-image: url(../img/section2/wes-hicks-TDDPRyUe0LI-unsplash.jpg);
+  height: 298px;
+  width: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card6-S2 {
+  background-image: url(../img/section2/matteo-catanese-SdjIiAE2M1A-unsplash.jpg);
+  height: 298px;
+  width: 425px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cards-S2 i {
+  font-size: 25px;
+  display: none;
+}
+.cards-S2 i:hover {
+  font-size: 30px;
+  display: block;
+}

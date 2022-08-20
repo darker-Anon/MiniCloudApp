@@ -1,0 +1,243 @@
+.hero3 {
+  background: rgb(24, 23, 23);
+  padding: 80px 0;
+}
+.row4 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.img-back {
+  background-image: url(../img/kelly-sikkema-WvVyudMd1Es-unsplash.jpg);
+  width: 650px;
+  height: 750px;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-back h1 {
+  color: white;
+  font-size: 60px;
+  padding-top: 60%;
+  margin: -80px;
+}
+.contents-3s {
+  width: 480px;
+}
+.contents-3s h1 {
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.contents-3s p {
+  color: white;
+  flex-wrap: wrap;
+  font-size: 17px;
+}
+.contents-3s a {
+  text-decoration: none;
+  color: rgb(78, 78, 235);
+  font-size: 20px;
+}
+.contents-3s a:hover {
+  color: rgb(123, 123, 255);
+  text-decoration: underline;
+}
+
+/* ROW5 CSS CODES */
+.hero4 {
+  background: rgb(24, 23, 23);
+  padding: 80px 0;
+}
+.row5 {
+  color: white;
+}
+.row5 h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+}
+.grids {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 110%;
+  border: none;
+  font-size: 20px;
+  margin-left: -70px;
+}
+.grid1 {
+  background: rgb(41, 41, 41);
+  padding: 13px;
+}
+.grid2 {
+  padding: 13px;
+  background: rgb(41, 41, 41);
+}
+.grid3 {
+  padding: 13px;
+  background: rgb(41, 41, 41);
+}
+.grids button {
+  border: 1px solid;
+  background-color: rgb(3, 93, 153);
+  color: white;
+  padding: 15px;
+  width: 120px;
+  font-size: 1rem;
+  border: none;
+}
+.grids button:hover {
+  background-color: rgb(25, 135, 209);
+  cursor: pointer;
+}
+
+/* ROW 6 CSS */
+.hero5 {
+  background: rgb(24, 23, 23);
+  padding: 80px 0;
+}
+.row6 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.grids-content {
+  width: 40%;
+}
+.grids-content p {
+  flex-wrap: wrap;
+}
+/* .grids-S {
+  gap: 50px;
+  padding: 20px;
+} */
+.grids-S1 {
+  display: flex;
+  gap: 50px;
+}
+.grids-S2 {
+  display: flex;
+  gap: 50px;
+}
+.grids-S3 {
+  display: flex;
+  gap: 50px;
+}
+.red {
+  background-image: url(../img/grids/ante-hamersmit-qg6MDcCWBfM-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.blue {
+  background-image: url(../img/grids/thomas-rey-Oadvsf3xH9E-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.yellow {
+  background-image: url(../img/grids/tom-shakir-PBcAG6bARdI-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.green {
+  background-image: url(../img/grids/ethan-hoover-K8g5_SHsNC8-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.black {
+  background-image: url(../img/grids/max-frajer-uYQ7h3ktqv0-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wine {
+  background-image: url(../img/grids/tim-gouw--gjHizUfFlM-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pink {
+  background-image: url(../img/grids/spencer-davis-DVRO3mzO2yA-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.redo {
+  background-image: url(../img/grids/pietro-mattia-zXqizKxnbBU-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.red1 {
+  background-image: url(../img/grids/ciprian-pardau-j8fVoo3i8xk-unsplash.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grids-S {
+  margin-left: -50px;
+}
+.grids-S a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.grids-content {
+  padding-top: 40px;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  font-weight: 600;
+}
+/* SECTION ROW7 CSS */
+.hero6 {
+  background: rgb(24, 23, 23);
+  padding: 80px 0;
+}
+.row7 {
+  background-image: url(../img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+  height: 500px;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 15%;
+}
+.row7 h1 {
+  color: white;
+  padding-top: 120px;
+  font-size: 3rem;
+  margin-left: -20%;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.row7 a {
+  color: rgb(86, 86, 255);
+  font-size: 40px;
+  text-decoration: none;
+  margin-left: -20%;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAABOev8AAAAAAAEAAAACAAAAyMfHAPL8/wD2/P8Aq6yrAPf8/wCloqQAfvz9AJWVlQCYm50AF2V1AHfv9QD4/P4AAAEDAMTBxAACAQMAtrO3AFKw2ABkiuQAZYrkAJCQkABJfP8AZorkAAACBwBu6vAAaIrkAAACAAD2+/8AIIWsAAABAgD4+/8Awr7CALKysQCSkpIAxsbGAG3d7wAsb4gAAAEBAAAAAwCA+v4AAQoQAAQAAwCmpqYAR7nQAEuJigAAAgUAXYLrAEx8/QBNe/8AAAEAAD2FigAAAAIAAwACAAQAAgDDw8MAAAEGAEt7/gBmvL0ATqrTAAAAAQC2urkAAwsTALazswAIFRkATXr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQ8WFRYWFhkZGRkWFhYVFgUIMSQMLSMiBDkRPwcJCxMGCDEXOi9BKx0lKjwaKDUTBghDMzMzQ0MAQ0NDMzMzOwYIQ0NDAQEBAQEBAT5DQ0MGCENDQwEfNgEBAQE+Q0NDBghDQ0MBAS4BAQEgPkNDQwYIQ0NDAQEbPgECKT5DQ0MGCENDQwEBCj4BNBI+Q0NDBghDQ0MBASY2DgNCPkNDQwYIQ0NDAQEUDTA9QD5DQ0MGCENDQwEBEDc4Jyw+Q0NDBghDQ0MBAQEBAQEBPkNDQwYeHBwcMkNDQ0NDQxgcHBwhAQEBAQEBAQEBAQEBAQEBAf//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAA="
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script src="https://use.fontawesome.com/76f63edc47.js"></script>
+
+    <title>MusicaList {% block title %} {% endblock %} </title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/style.css', _external=True)}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/S2styles.css', _external=True)}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/S3styles.css', _external=True)}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/media.css', _external=True)}}"
+    />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/tracks.css', _external=True)}}">
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+      <div class="container">
+        <div class="row">
+          <div class="column1">
+            <img src="{{url_for('static', filename='img/soundcloud logo.png')}}" alt="soundcloud logo" />
+          </div>
+          <div class="column2">
+            <nav>
+              <ul>
+                <a href="{{url_for('index')}}"><li>Home</li></a>
+                <!-- <a href="#"><li>About</li></a> -->
+                <a href="{{url_for('Tracks')}}"><li>Tracks</li></a>
+              </ul>
+              <a href="{{url_for('Tracks')}}"><span><i class="fa fa-headphones" aria-hidden="true"></i></span></a>
+              <form class="form">
+                <input type="text" placeholder="Search Music" name="search" class="search_bar" /> 
+                
+                  <a href="" class="s-btn"><i class="fa fa-search sbtn" aria-hidden="true"></i></a>
+              
+                </form>
+                <span class="bars"><i class="fa fa-bars sbtn"></i></span>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav2">
+              <ul>
+                <a href="{{url_for('index')}}"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="{{url_for('Tracks')}}"><li>Tracks</li></a>
+              </ul>
+              </nav>
+    </header> 
+    {% block body %} {% endblock %}
+  </body>
+</html>

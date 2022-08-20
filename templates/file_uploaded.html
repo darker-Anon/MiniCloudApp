@@ -1,0 +1,25 @@
+{% extends 'Nav_layout.html' %} {% block title %} | Success {% endblock %} {%
+block body %}
+<section>
+  <div class="Tracks_heros1">
+    <div class="container">
+      <div class="Tracks_rowss">
+        <div>
+          <h1 class="succH1">YOU HAVE SUCCESSFULLY UPLOADED YOUR SONG</h1>
+        </div>
+
+        <div class="shown_file">
+        <div>
+      <audio controls preload="auto">
+        <source
+          src="{{url_for('static',filename='uploads/' + file)}}"
+          alt="song"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
