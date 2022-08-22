@@ -3,3 +3,4 @@ flask_sqlalchemy
 SQLAlchemy
 psycopg2
 gunicorn
+werkzeug
