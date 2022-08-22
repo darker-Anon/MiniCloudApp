@@ -8,6 +8,8 @@ db = SQLAlchemy(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:antoine@localhost/11AUG(audio)'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
+DATABASE_URL= $(heroku config:get postgresql+psycopg2://postgres:antoine@localhost/11AUG(audio) -a mini-soundcloud-clone) your_process
+
 class Uploading(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     uploads = db.Column(db.String(100), unique=True)
