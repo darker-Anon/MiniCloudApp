@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 db = SQLAlchemy(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:antoine@localhost/11AUG(audio)'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://nacbvyxvgzspie:214ef7f9e792ec1379deafcbe36ea4844279922c9219575dfbc253f156e6c52d@ec2-34-199-68-114.compute-1.amazonaws.com:5432/d63ie289q6nurf'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 class Uploading(db.Model):
