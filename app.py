@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 from flask_sqlalchemy import SQLAlchemy
+import logging
 
 app = Flask(__name__)
 db = SQLAlchemy(app)
